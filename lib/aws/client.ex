@@ -6,6 +6,7 @@ defmodule AWS.Client do
   defstruct access_key_id: nil,
             secret_access_key: nil,
             region: nil,
+            token: nil,
             endpoint: nil,
             service: nil,
             proto: "https",
